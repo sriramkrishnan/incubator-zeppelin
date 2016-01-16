@@ -17,6 +17,8 @@
 
 package org.apache.zeppelin.scalding;
 
+import com.twitter.scalding.ScaldingILoop;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.PrintStream;

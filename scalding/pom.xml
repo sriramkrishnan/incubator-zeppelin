@@ -36,10 +36,14 @@
   <properties>
     <scala.version>2.10.4</scala.version>
     <hadoop.version>2.3.0</hadoop.version>
-    <scalding.version>0.15.1-RC13</scalding.version>
+    <scalding.version>0.15.1-SNAPSHOT</scalding.version>
   </properties>
 
   <repositories>
+    <repository>
+      <id>localrepository</id>
+      <url>file:///Users/skrishnan/.m2/repository/</url>
+    </repository>
     <repository>
       <id>conjars</id>
       <name>Concurrent Maven Repo</name>
